@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+body {
+    background-image: url('./flat-lay-photo-office-desk-with-laptop-copy-space-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+/* .bg-image {
+    background-image: url('./flat-lay-photo-office-desk-with-laptop-copy-space-background.jpg');
+    background-repeat: no-repeat;
+    width: 300%;
+    height: 100vh;
+    background-size: cover;
+    
+} */
+
+
+.calculatorName {
+    width: 460px;
+    height: 260px;
+    background: rgb(190, 189, 189);
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+.calculator {
+    border: 1px  #f5efef;
+    padding: 20px;
+    border-radius: 16px;
+    background: #141a1a;
+    
+
+}
+
+.heading1 {
+    text-align: center;
+    margin-right: 100px;
+    padding-top: 75px;
+    background-color: rgb(253, 199, 174) ;
+    border: 10px;
+    border-radius: 10px;
+    border-color: rgba(245, 142, 116, 0.795);
+    border-style: solid;
+    width: 500px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 100px;
+    height: 400px;
+    float: left;
+}
+
+input {
+    width: 400px;
+    height: 200px;
+    border: 1px;
+    padding: 20px;
+    margin: 10px;
+    background: #535252;
+    border-radius: 16px;
+    font-size: 40px;
+    color: #fff;
+    text-align: right;
+    cursor: pointer;
+}
+input::placeholder {
+    color: #fff;
+    font-size: 100%;
+
+}
+button {
+    border: 5px;
+    width: 92px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 16px;
+    border-style: solid;
+    background: #ede9e9;
+    border-color: #f3f3f3;
+    font-size: 20px;
+    
+    box-shadow: -8px -8px 15px rgba(100, 96, 96, 0.2);
+    cursor: pointer;
+  
+}
+.equalBtn {
+    background: rgba(239, 140, 129, 0.913);
+}
+.optBtn {
+    background: rgb(191, 237, 191);
+}
+
+.delBtn {
+    background: rgba(239, 140, 129, 0.913);
+}
+.acBtn{
+    background: rgba(239, 140, 129, 0.913);
+}
+.btncolor{
+    border-color:  rgb(191, 237, 191);
+}
+
+.end {
+    margin: 20px;
+    padding-left: 15px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute; 
+    
+   
+}
+.logo {
+    margin: 10px;
+    width: 130px;
+    height: 25px;
+    align-items: center;
+   
+}
