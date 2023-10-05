@@ -95,9 +95,6 @@ button {
 .btncolor{
     border-color:  rgb(191, 237, 191);
 }
-footer {
- background: transparent;   
-}
 .end {
     margin: 10px;
     font-size: 30px;
@@ -106,6 +103,7 @@ footer {
     font-style: italic;
     font-weight: bold;
     position: absolute; 
+
 .logo {
     margin: 10px;
     width: 130px;
