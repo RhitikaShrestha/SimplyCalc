@@ -6,7 +6,6 @@
     font-family: 'Roboto', sans-serif;
    
 }
-
 body {
     background-image: url('./flat-lay-photo-office-desk-with-laptop-copy-space-background.jpg');
     background-repeat: no-repeat;
@@ -28,16 +27,12 @@ body {
     border-radius: 10px;
     font-style: italic;
 }
-
 .calculator {
     border: 1px  #f5efef;
     padding: 20px;
     border-radius: 16px;
     background: #141a1a;
-    
-
 }
-
 .heading1 {
     text-align: center;
     margin-right: 100px;
@@ -53,7 +48,6 @@ body {
     height: 400px;
     float: left;
 }
-
 input {
     width: 400px;
     height: 200px;
@@ -70,10 +64,9 @@ input {
 input::placeholder {
     color: #fff;
     font-size: 100%;
-
 }
 button {
-    border: 5px;
+    border: 8px;
     width: 92px;
     height: 80px;
     margin: 10px;
@@ -82,7 +75,6 @@ button {
     background: #ede9e9;
     border-color: #f3f3f3;
     font-size: 30px;
-    
     box-shadow: -8px -8px 15px rgba(100, 96, 96, 0.2);
     cursor: pointer;
   
