@@ -92,7 +92,8 @@ button {
     border-color:  rgb(191, 237, 191);
 }
 .end {
-    margin: 20x;
+    margin: 20px;
+    padding: 15px;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
@@ -102,6 +103,7 @@ button {
 .logo {
     margin: 10px;
     width: 130px;
-    height: 25px;
+    height: 30px;
     align-items: center;
+    position: absolute;
 }
