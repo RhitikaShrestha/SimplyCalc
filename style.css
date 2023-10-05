@@ -97,7 +97,7 @@ button {
 }
 .end {
     margin: 10px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
     text-align: left;
     font-style: italic;
@@ -106,8 +106,8 @@ button {
 
 .logo {
     margin: 10px;
-    width: 130px;
-    height: 25px;
+    width: 140px;
+    height: 30px;
     align-items: center;
     position: absolute; 
    
